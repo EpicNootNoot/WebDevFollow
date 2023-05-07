@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Lora&display=swap" rel="stylesheet">
@@ -23,8 +23,12 @@
 
   </head>
 
-  <body>
-    <div id="wrapper">
+    <body>
+
+    <!-- Skip to Content Link -->  
+      <a class="skip" href="#content">Skip to Content</a>
+
+      <div id="wrapper">
 
         <!-- Mobile Nav -->
         <nav class="mobile-nav">
@@ -50,6 +54,7 @@
        <div class="mobile">
           <h1>&#128062; Wild Rescues</h1>
           <h3>Rescue. Rehabilitate. Release.</h3>
+       </div>
       </header>
 
         <nav class="tab-desk">
@@ -65,16 +70,26 @@
 
         <!-- Use the main area to add the main content to the webpage -->
 
-        <main><div></div></main>
+        <main id="content">
+          <div>
+
+          </div>
+        </main>
 
         <footer>
-          <p>&copy; Copyright 2021. All Rights Reserved.</p>
-          <p><a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p>
+          <div class="copyright">
+            <p>&copy; Copyright 2021. All Rights Reserved.</p>
+            <p><a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p>
+          </div>
+
+          <div class="social">
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/twitter-logo.png" alt="Twitter logo"></a>
+          </div>
+
         </footer>
       </div>
 
       <script src="scripts/script.js"></script>
     </body>
-
-  </head>
 </html>
